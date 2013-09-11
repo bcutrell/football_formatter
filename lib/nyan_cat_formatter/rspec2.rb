@@ -29,7 +29,7 @@ module RSpec2
 
   def dump_summary(duration, example_count, failure_count, pending_count)
     dump_profile if profile_examples? && failure_count == 0
-    summary = "\nYou've Nyaned for #{format_duration(duration)}\n".split(//).map { |c| rainbowify(c) }
+    summary = "\nTom Brady has been throwing footballs for #{format_duration(duration)}\n".split(//).map { |c| rainbowify(c) }
     output.puts summary.join
     output.puts colorise_summary(summary_line(example_count, failure_count, pending_count))
     if respond_to?(:dump_commands_to_rerun_failed_examples)

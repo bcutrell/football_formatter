@@ -41,7 +41,7 @@ module RSpec1
 
   def dump_summary(duration, example_count, failure_count, pending_count)
     @output.puts "\nYou've Nyaned for #{format_duration(duration)}\n".each_char.map {|c| rainbowify(c)}.join
-    summary = "#{example_count} example#{'s' unless example_count == 1}, #{failure_count} failure#{'s' unless failure_count == 1}"
+    summary = "#{example_count} Wins#{'s' unless example_count == 1}, #{failure_count} Loses#{'s' unless failure_count == 1}"
     summary << ", #{pending_count} pending" if pending_count > 0
 
     if failure_count == 0

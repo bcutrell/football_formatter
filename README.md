@@ -10,4 +10,4 @@ Make the colors and quarterback names customizable for each NFL team.
 Author
 ----------
 [Matt Sears](http://www.mattsears.com) :: @mattsears
-[Ben Cutrell] :: @bcutrell
+Ben Cutrell :: @bcutrell

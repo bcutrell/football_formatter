@@ -1,3 +1,6 @@
+spec.license = 'MIT'
+
+
 Copyright (c) 2011 Matt Sears
 
 Permission is hereby granted, free of charge, to any person obtaining
